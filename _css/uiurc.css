@@ -1,0 +1,252 @@
+@import "tailwindcss";
+
+
+@source './_draft/**/*.html';
+@source './_includes/**/*.html';
+@source './_layouts/**/*.html';
+@source './*.md';
+@source './*.html';
+@source './**/*.html';
+@source './_draft/**/*.md';
+
+@plugin "daisyui" {
+    themes: ["thaas", "thaas-dark", "thaas-dark-daisyui"];
+    styled: true;
+    utils: true;
+    logs: true;
+    styledark: true;
+    logdark: true;
+    utilsdark: true;
+}
+
+@plugin "daisyui/theme"{
+    name: "thaas";
+    default: true;
+    prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
+
+    --color-base-100: #EFEEEA;                              /* Base surface color of page, used for blank backgrounds */
+    --color-base-200: #e9e9e9;                              /* Base color, darker shade, to create elevations */
+    --color-base-300: #bbbbbb;                              /* Base color, even more darker shade, to create elevations */
+    --color-base-content: #0f0f0f;                             /* Foreground content color to use on base color */
+    --color-primary: #FE7743;                               /* Primary brand color, The main color of your brand */
+    --color-primary-content: #ffffff;                       /* Foreground content color to use on primary color */
+    --color-secondary: #4d4d4d;                             /* Secondary brand color, The optional, secondary color of your brand */
+    --color-secondary-content: #fff;                        /* Foreground content color to use on secondary color */
+    --color-accent: #262626;                                 /* Accent brand color, The optional, accent color of your brand */
+    --color-accent-content: #000;            /* Foreground content color to use on accent color efee#efeeef/
+    --color-neutral: oklch(50% 0.05 240);                   /* Neutral dark color, For not-saturated parts of UI */
+    --color-neutral-content: oklch(98% 0.01 240);           /* Foreground content color to use on neutral color */
+    --color-info: oklch(70% 0.2 220);                       /* Info color, For informative/helpful messages */
+    --color-info-content: #000;              /* Foreground content color to use on info color */
+    --color-success: oklch(0.68 0.28 145.55);                   /* Success color, For success/safe messages */
+    --color-success-content: #000;           /* Foreground content color to use on success color */
+    --color-warning: oklch(80% 0.25 80);                    /* Warning color, For warning/caution messages */
+    --color-warning-content: oklch(20% 0.05 80);            /* Foreground content color to use on warning color */
+    --color-error: oklch(0.6 0.28 28.54);                       /* Error color, For error/danger/destructive messages */
+    --color-error-content: oklch(98% 0.01 30);              /* Foreground content color to use on error color */
+
+    /* border radius */
+    --radius-selector: 1rem;
+    --radius-field: 0.25rem;
+    --radius-box: 0.5rem;
+
+    /* base sizes */
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+
+    /* border size */
+    --border: 1px;
+
+    /* effects */
+    --depth: 1;
+    --noise: 0;
+}
+
+@plugin "daisyui/theme" {
+    name: "thaas-dark";
+    default: false;
+    prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
+
+    --color-base-100: #1a1a1a;                              /* Base surface color of page, used for blank backgrounds */
+    --color-base-200: #2e2e2e;                              /* Base color, darker shade, to create elevations */
+    --color-base-300: #4b4b4b;                              /* Base color, even more darker shade, to create elevations */
+    --color-base-content: #fffafa;                             /* Foreground content color to use on base color */
+    --color-primary: #FE7743;                               /* Primary brand color, The main color of your brand */
+    --color-primary-content: #ffffff;                       /* Foreground content color to use on primary color */
+    --color-secondary: #4d4d4d;                             /* Secondary brand color, The optional, secondary color of your brand */
+    --color-secondary-content: #fff;                        /* Foreground content color to use on secondary color */
+    --color-accent: #262626;                                 /* Accent brand color, The optional, accent color of your brand */
+    --color-accent-content: #000;            /* Foreground content color to use on accent color */
+    --color-neutral: oklch(50% 0.05 240);                   /* Neutral dark color, For not-saturated parts of UI */
+    --color-neutral-content: oklch(98% 0.01 240);           /* Foreground content color to use on neutral color */
+    --color-info: oklch(70% 0.2 220);                       /* Info color, For informative/helpful messages */
+    --color-info-content: #000;              /* Foreground content color to use on info color */
+    --color-success: oklch(0.68 0.28 145.55);                   /* Success color, For success/safe messages */
+    --color-success-content: #000;           /* Foreground content color to use on success color */
+    --color-warning: oklch(80% 0.25 80);                    /* Warning color, For warning/caution messages */
+    --color-warning-content: oklch(20% 0.05 80);            /* Foreground content color to use on warning color */
+    --color-error: oklch(0.64 0.3 28.83);                       /* Error color, For error/danger/destructive messages */
+    --color-error-content: oklch(98% 0.01 30);              /* Foreground content color to use on error color */
+
+    /* border radius */
+    --radius-selector: 1rem;
+    --radius-field: 0.25rem;
+    --radius-box: 0.5rem;
+
+    /* base sizes */
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+
+    /* border size */
+    --border: 1px;
+
+    /* effects */
+    --depth: 1;
+    --noise: 0;
+}
+
+@font-face {
+    font-family: 'Baloo Da';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Baloo_Da/BalooDa2-Regular.ttf');
+}
+
+@theme {
+    --font-balooda: 'Baloo Da', sans-serif;
+    --animate-infinite-scroll: animate-infinite-scroll 25s linear infinite;
+
+    @keyframes animate-infinite-scroll {
+        0% {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+}
+
+.test-light-color{
+    --color-base-100: #EFEEEA;
+    --color-base-200: #e9e9e9;
+    --color-base-300: #bbbbbb;
+    --color-base-content: #0f0f0f;
+    --color-primary: #FE7743;
+    --color-primary-content: #ffffff;
+    --color-secondary: #4d4d4d;
+    --color-secondary-content: #fff;
+    --color-accent: #262626;
+    --color-accent-content: #efeeef;
+    --color-neutral: oklch(50% 0.05 240)
+    --color-neutral-content: oklch(98% 0.01 240)
+    --color-info: oklch(70% 0.2 220)
+    --color-info-content: #000;
+    --color-success: oklch(0.68 0.28 145.55)
+    --color-success-content: #000;
+    --color-warning: oklch(80% 0.25 80)
+    --color-warning-content: oklch(20% 0.05 80)
+    --color-error: oklch(0.6 0.28 28.54)
+    --color-error-content: oklch(98% 0.01 30); 
+}
+
+html {
+    @apply font-balooda;
+}
+
+.active {
+    @apply bg-base-300 px-8 py-2.5 rounded-lg;
+    clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 100% 100%, 100% 36%, 90% 15%, 90% 0%);
+}
+
+.active:before {
+    @apply rounded-lg;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background-color: var(--color-primary);
+    z-index: 100;
+    clip-path: polygon(0% 0%, 0% 35%, 20% 0%);
+}
+
+.active:hover {
+    @apply bg-base-200;
+}
+
+.header-logo {
+    @apply bg-accent px-8 py-4 w-1/2 sm:w-sm lg:w-lg xl:w-xl max-h-28 rounded-l-lg;
+}
+
+[data-screw*=header-l-system] {
+    position: relative;
+}
+
+
+[data-screw*=header-l-system]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/screw.svg'), /* top left */
+                    none, /* top right */
+                    url('../img/screw.svg'), /* bottom right */
+                    url('../img/screw.svg')/* bottom right */;
+                    background-position: top 0.5rem left 0.5rem, /* top left */
+                    top 0.5rem right 0.5rem, /* top right */
+                    bottom 0.5rem right 0.5rem, /* bottom right */
+                    bottom 0.5rem left 0.5rem /* bottom left */;
+    background-repeat: no-repeat;
+    background-size: 0.75rem 0.75rem;
+}
+
+[data-screw*=header-right-i-system]::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: none, /* top left */
+                    url('../img/screw.svg'), /* top right */
+                    none, /* bottom right */
+                    none/* bottom right */;
+                    background-position: 0, /* top left */
+                    top 0.5rem right 0.5rem, /* top right */
+                    0, /* bottom left */
+                    0/* bottom right */;
+    background-repeat: no-repeat;
+    background-size: 0.75rem 0.75rem;
+}
+
+@media (width >= 40rem) {
+    .header-logo {
+        clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 50% 60%, 55% 50%, 100% 50%, 100% 0%);
+    }
+
+    [data-screw*=header-l-system]::before {
+        background-image: url('../img/screw.svg'), /* top left */
+                        none, /* top right */
+                        url('../img/screw.svg'), /* bottom right */
+                        url('../img/screw.svg')/* bottom right */;
+        background-position: top 0.5rem left 0.5rem, /* top left */
+                        top 0.5rem right 0.5rem, /* top right */
+                        bottom 0.5rem right 55%, /* bottom right */
+                        bottom 0.5rem left 0.5rem /* bottom left */;
+    }
+
+    [data-screw*=header-right-i-system]::after {
+        background-image: none, /* top left */
+                        url('../img/screw.svg'), /* top right */
+                        none, /* bottom right */
+                        url('../img/screw.svg')/* bottom right */;
+        background-position: 0, /* top left */
+                            top 0.5rem right 0.5rem, /* top right */
+                            0, /* bottom left */
+                            right .5rem bottom 65% /* bottom right */;
+    }
+}
