@@ -6,7 +6,7 @@ language: "en-BD"
 
 # advance settings
 url: "http://127.0.0.1:4000"
-baseurl: "" # the subpath of your site for github pages setup, e.g. /blog or empty
+baseurl: "/UIURC" # the subpath of your site for github pages setup, e.g. /blog or empty
 tags:
   - UIURC
   - uiu robotics
