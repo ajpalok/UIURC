@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="w-full sm:w-1/2">
-            <svg width="" height="" viewBox="0 0 629 372" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 0 629 372" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_17_759)">
                     <path d="M631.098 0L4.6792 0L4.6792 372L631.098 372V0ZM281.48 53.074L303.368 49.7478L283.846 22.7047L281.48 53.074Z" fill="#0E1E2D"/>
                     <path d="M631.098 2.28882e-05L537.845 2.28882e-05L631.098 84.5521V2.28882e-05Z" fill="#0D1723"/>
@@ -119,7 +119,7 @@
 
     <section class="w-[85%] max-w-[1440px] mx-auto mt-20 px-5">
         <div class="text-nowrap flex items-center flex-row justify-center gap-[22px] text-primary">
-            <span class="font-display text-2xl text-nowrap font-semibold uppercase">
+            <span class="font-display text-md sm:text-xl md:text-2xl lg:text-4xl text-nowrap font-semibold uppercase">
                 :: Upcoming Events
             </span>
             <div class="relative w-full h-[2px] bg-[#F0F0F0]">
@@ -138,7 +138,7 @@
 
     <section class="w-[85%] max-w-[1440px] mx-auto mt-20 px-5">
         <div class="text-nowrap flex items-center flex-row justify-center gap-[22px] text-primary">
-            <span class="font-display text-2xl text-nowrap font-semibold uppercase">
+            <span class="font-display text-md sm:text-xl md:text-2xl lg:text-4xl text-nowrap font-semibold uppercase">
                 :: Our Events
             </span>
             <div class="relative w-full h-[2px] bg-[#F0F0F0]">
@@ -157,7 +157,7 @@
 
     <section class="w-[85%] max-w-[1440px] mx-auto mt-20 px-5">
         <div class="text-nowrap flex items-center flex-row justify-center gap-[22px] text-primary">
-            <span class="font-display text-2xl text-nowrap font-semibold uppercase">
+            <span class="font-display text-md sm:text-xl md:text-2xl lg:text-4xl text-nowrap font-semibold uppercase">
                 :: What do we do?
             </span>
             <div class="relative w-full h-[2px] bg-[#F0F0F0]">
@@ -204,7 +204,7 @@
 
     <section class="w-[85%] max-w-[1440px] mx-auto mt-20 px-5">
         <div class="text-nowrap flex items-center flex-row justify-center gap-[22px] text-primary">
-            <span class="font-display text-2xl text-nowrap font-semibold uppercase">
+            <span class="font-display text-md sm:text-xl md:text-2xl lg:text-4xl text-nowrap font-semibold uppercase">
                 :: Brands we work with
             </span>
             <div class="relative w-full h-[2px] bg-[#F0F0F0]">
