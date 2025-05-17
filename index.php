@@ -155,7 +155,6 @@
 
     </section>
 
-
     <section class="w-[85%] max-w-[1440px] mx-auto mt-20 px-5">
         <div class="text-nowrap flex items-center flex-row justify-center gap-[22px] text-primary">
             <span class="font-display text-2xl text-nowrap font-semibold uppercase">

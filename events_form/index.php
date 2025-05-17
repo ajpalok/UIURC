@@ -10,7 +10,7 @@
 <body>
     <?php include ABSPATH.'_includes/header.php'; ?>
 
-    <section class="w-[85%] max-w-3xl mx-auto mt-20 flex flex-col sm:flex-row gap-8">
+    <section class="w-[85%] max-w-[1440px] mx-auto mt-20 flex flex-col sm:flex-row gap-8">
         <div class="w-full sm:w-1/2">
             <svg width="" height="" viewBox="0 0 629 372" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_17_759)">
@@ -73,14 +73,14 @@
         </div>
         <div class="w-full sm:w-1/2 flex flex-col">
             <div class="my-6">
-                <h1 class="text-2xl text-primary font-semibold">Event Name</h1>
-                <p class="text-sm">Event Details: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, excepturi.</p>
+                <h1 class="text-2xl lg:text-4xl xl:text-[3.25rem] text-primary font-semibold">Event Name</h1>
+                <p class="text-sm lg:text-lg xl:text-2xl">Event Details: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, excepturi.</p>
             </div>
             <div class="mt-2 flex flex-row items-center gap-1">
                 <svg fill="var(--color-primary)" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 48 48">
                     <use xlink:href="#location"></use>
                 </svg>
-                <p class="text-sm">
+                <p class="text-sm lg:text-lg xl:text-2xl">
                     Event Location
                 </p>
             </div>
@@ -88,7 +88,7 @@
                 <svg fill="var(--color-primary)" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 24 24">
                     <use xlink:href="#clock"></use>
                 </svg>
-                <p class="text-sm">
+                <p class="text-sm lg:text-lg xl:text-2xl">
                     Event Time
                 </p>
             </div>

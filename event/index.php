@@ -10,7 +10,7 @@
 <body>
     <?php include ABSPATH.'_includes/header.php'; ?>
 
-    <section class="w-[85%] max-w-3xl mx-auto mt-20 flex flex-col sm:flex-row gap-8">
+    <section class="w-[85%] max-w-[1440px] mx-auto mt-20 flex flex-col items-center sm:flex-row gap-8">
         <div class="w-full sm:w-1/2">
             <svg width="" height="" viewBox="0 0 629 372" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_17_759)">
@@ -69,18 +69,17 @@
                     </clipPath>
                 </defs>
             </svg>
-
         </div>
         <div class="w-full sm:w-1/2 flex flex-col">
             <div class="my-6">
-                <h1 class="text-2xl text-primary font-semibold">Event Name</h1>
+                <h1 class="text-2xl lg:text-4xl xl:text-[3.25rem] text-primary font-semibold">Event Name</h1>
                 <p class="text-sm">Event Details: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, excepturi.</p>
             </div>
             <div class="mt-2 flex flex-row items-center gap-1">
                 <svg fill="var(--color-primary)" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 48 48">
                     <use xlink:href="#location"></use>
                 </svg>
-                <p class="text-sm">
+                <p class="text-sm lg:text-lg xl:text-2xl">
                     Event Location
                 </p>
             </div>
@@ -88,13 +87,13 @@
                 <svg fill="var(--color-primary)" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 24 24">
                     <use xlink:href="#clock"></use>
                 </svg>
-                <p class="text-sm">
+                <p class="text-sm lg:text-lg xl:text-2xl">
                     Event Time
                 </p>
             </div>
-            <div class="mt-2 flex flex-row items-center gap-1">
+            <div class="mt-2 flex flex-row items-center gap-1 sm:mt-4 lg:mt-6 xl:mt-8">
                 <a href="/events_form">
-                    <svg width="120" height="65" viewBox="0 0 215 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="w-30 lg:w-40 xl:w-50" viewBox="0 0 215 65" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_40_80)">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0 16.9L18 0H6.5C2.9 0 0 2.9 0 6.5V16.9Z"
                                 fill="#FF3215" />
@@ -170,7 +169,7 @@
         </div>
     </section>
 
-    <section class="w-[85%] max-w-3xl mx-auto mt-20">
+    <section class="w-[85%] max-w-[1440px] mx-auto mt-20">
         <div class="text-nowrap flex items-center flex-row justify-center gap-[22px] text-primary">
             <span class="font-display text-2xl text-nowrap font-semibold uppercase">
                 :: Our Guests
@@ -181,31 +180,36 @@
             </div>
         </div>
 
-        <div class="flex flex-row flex-wrap items-center justify-around gap-3 mt-10">
-            <div class="flex flex-col max-w-[200px]">
+        <div class="flex flex-row flex-wrap items-center justify-center mt-10">
+            <div class="flex flex-col max-w-[200px] mt-4">
                 <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3" src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
-                <p class="text-center text-3xl mb-2">Prof. Dr. MD. Abrar Jahin</p>
-                <p class="text-center text-md">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-center text-3xl px-2 mb-2">Prof. Dr. MD. Abrar Jahin</p>
+                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div class="flex flex-col max-w-[200px]">
+            <div class="flex flex-col max-w-[200px] mt-4">
                 <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3" src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
-                <p class="text-center text-3xl mb-2">Prof. Dr. MD. Abrar Jahin</p>
-                <p class="text-center text-md">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-center text-3xl px-2 mb-2">Prof. Dr. MD. Abrar Jahin</p>
+                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div class="flex flex-col max-w-[200px]">
+            <div class="flex flex-col max-w-[200px] mt-4">
                 <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3" src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
-                <p class="text-center text-3xl mb-2">Prof. Dr. MD. Abrar Jahin</p>
-                <p class="text-center text-md">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-center text-3xl px-2 mb-2">Prof. Dr. MD. Abrar Jahin</p>
+                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div class="flex flex-col max-w-[200px]">
+            <div class="flex flex-col max-w-[200px] mt-4">
                 <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3" src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
-                <p class="text-center text-3xl mb-2">Prof. Dr. MD. Abrar Jahin</p>
-                <p class="text-center text-md">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-center text-3xl px-2 mb-2">Prof. Dr. MD. Abrar Jahin</p>
+                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="flex flex-col max-w-[200px] mt-4">
+                <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3" src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
+                <p class="text-center text-3xl px-2 mb-2">Prof. Dr. MD. Abrar Jahin</p>
+                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </div>
     </section>
 
-    <section class="w-[85%] max-w-3xl mx-auto mt-20">
+    <section class="w-[85%] max-w-[1440px] mx-auto mt-20">
         <div class="text-nowrap flex items-center flex-row justify-center gap-[22px] text-primary">
             <span class="font-display text-2xl text-nowrap font-semibold uppercase">
                 :: Supported by
