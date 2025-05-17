@@ -2,6 +2,7 @@
 <meta property="og:image" content="/assets/img/blog-image.jpg"/>
 <meta property="og:locale" content="en-BD">
 <meta property="og:type" content="website">
+<meta property="og:image" content="/assets/img/cover_image.png">
 <meta property="og:title" content="UIU Robotics | A Step Towards Infinity">
 <meta property="og:site_name" content="UIU Robotics Club">
 <meta property="og:description" content="UIU Robotics is a student-run club of undergraduate and graduate students from United International University. The purpose of the Organization is to explore new engineering technology, learn crucial skills and promote the field of robotics.">
