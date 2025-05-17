@@ -155,7 +155,6 @@
 
     </section>
 
-
     <section class="w-[85%] max-w-[1440px] mx-auto mt-20 px-5">
         <div class="text-nowrap flex items-center flex-row justify-center gap-[22px] text-primary">
             <span class="font-display text-2xl text-nowrap font-semibold uppercase">
@@ -168,7 +167,7 @@
         </div>
 
         <div class="flex flex-row flex-wrap gap-3 justify-center mt-10">
-            <div class="flex flex-col sm:flex-row max-w-[22rem] gap-8">
+            <div class="flex flex-col sm:flex-row max-w-[600px] gap-8">
                 <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px]" src="/assets/img/svg/community.svg">
                 
                 <div class="flex flex-col">
@@ -176,7 +175,7 @@
                     <p class="text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam harum fuga eligendi error ad commodi!</p>
                 </div>
             </div>
-            <div class="flex flex-col sm:flex-row max-w-[22rem] gap-8">
+            <div class="flex flex-col sm:flex-row max-w-[600px] gap-8">
                 <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px]" src="/assets/img/svg/career.svg">
                 
                 <div class="flex flex-col">
@@ -184,7 +183,7 @@
                     <p class="text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam harum fuga eligendi error ad commodi!</p>
                 </div>
             </div>
-            <div class="flex flex-col sm:flex-row max-w-[22rem] gap-8">
+            <div class="flex flex-col sm:flex-row max-w-[600px] gap-8">
                 <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px]" src="/assets/img/svg/team-leader.svg">
                 
                 <div class="flex flex-col">
@@ -192,7 +191,7 @@
                     <p class="text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam harum fuga eligendi error ad commodi!</p>
                 </div>
             </div>
-            <div class="flex flex-col sm:flex-row max-w-[22rem] gap-8">
+            <div class="flex flex-col sm:flex-row max-w-[600px] gap-8">
                 <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px]" src="/assets/img/svg/door.svg">
                 
                 <div class="flex flex-col">
