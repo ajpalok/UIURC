@@ -1,3 +1,94 @@
+:root {
+    --color-header-blob-bg: #262626;
+}
+
+.logo-slab {
+    position: relative;
+    background-color: var(--color-header-blob-bg);
+    width: 150px;
+    height: 83px;
+}
+
+.logo-slab .logo-slab__img {
+    width: 60px;
+    height: 60px;
+}
+
+.logo-slab::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 83px;
+    background-image: url('/assets/img/svg/nut-header.svg'), /* top left */
+                    url('/assets/img/svg/nut-header.svg'), /* bottom right */
+                    url('/assets/img/svg/nut-header.svg')/* bottom right */;
+    background-position: 0.5rem 0.5rem, /* top left */
+                         0.5rem calc(100% - 0.5rem), /* bottom left */
+                         calc(100% - 0.5rem) calc(100% - 0.5rem) /* bottom right */;
+
+    background-repeat: no-repeat;
+    background-size: 0.75rem 0.75rem;
+}
+
+.logo-slab::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -32px;
+    width: 33px;
+    height: 100%;
+    background-image: url('/assets/img/svg/header-curve.svg');
+    background-repeat: no-repeat;
+    background-size: 33px 83px;
+    z-index: -4;
+}
+
+.logo-slab_tail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 305px;
+    width: 100%;
+    height: 47px;
+    background-color: var(--color-header-blob-bg);
+    z-index: -3;
+}
+
+.logo-slab_tail::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/img/svg/nut-header.svg'), /* top right */
+                    url('/assets/img/svg/nut-header.svg')/* middle right */;
+    background-position: calc(100% - 0.5rem) 0.5rem, /* top right */
+                    calc(100% - 0.5rem) calc(100% - 0.5rem) /* middle right */;
+    background-repeat: no-repeat;
+    background-size: 0.75rem 0.75rem;
+}
+
+@media (max-width:230px) {
+    .logo-slab::after {
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 83px;
+        background-image: url('/assets/img/svg/nut-header.svg') /* top right */;
+        background-position-x: calc(100% - 0.5rem);
+        background-position-y: 0.5rem;
+        background-repeat: no-repeat;
+        background-size: 0.75rem 0.75rem;
+        z-index: 0;
+    }
+    .logo-slab_tail {
+        display: none;
+    }
+}
+
 .nut_box_4 {
     position: relative;
     background-color: #D9D9D9;
