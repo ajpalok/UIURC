@@ -2,7 +2,10 @@
 
 <header class="w-full h-[100px] bg-grey-100 relative flex justify-between">
     <div class="logo-slab w-full max-w-[305px] flex items-center justify-center">
-        <img src="/assets/img/logo/Icon.png" alt="Logo" class="logo-slab__img" />
+        <a href="index.php" class="logo-slab__link">
+            <img src="/assets/img/logo/Icon.png" alt="Logo" class="logo-slab__img" />
+        </a>
+
     </div>
     <div class="logo-slab_tail">
         <span class="hidden">
@@ -44,16 +47,16 @@
         </div>
         <div class="h-[53px] hidden md:flex items-center justify-end z-1">
             <div class="flex items-center justify-center mx-5">
-                <a href="https://www.facebook.com/uiurobotics" class="me-4 text-sm md:text-lg xl:text:2xl">
+                <a href="\index.php" class="me-4 text-sm md:text-lg xl:text:2xl">
                     Home
                 </a>
                 <a href="https://www.linkedin.com/company/uiu-robotics/" class="me-4 text-sm md:text-lg xl:text:2xl">
                     About Us
                 </a>
-                <a href="https://www.linkedin.com/company/uiu-robotics/" class="me-4 text-sm md:text-lg xl:text:2xl">
+                <a href="\event\index.php" class="me-4 text-sm md:text-lg xl:text:2xl">
                     Events
                 </a>
-                <a href="https://www.linkedin.com/company/uiu-robotics/" class="me-4 text-sm md:text-lg xl:text:2xl">
+                <a href="\Achievements\achievements.php" class="me-4 text-sm md:text-lg xl:text:2xl">
                     Acheivements
                 </a>
                 <a href="https://www.linkedin.com/company/uiu-robotics/" class="me-4 text-sm md:text-lg xl:text:2xl">
