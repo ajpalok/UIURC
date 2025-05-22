@@ -50,13 +50,13 @@
                 <a href="\index.php" class="me-4 text-sm md:text-lg xl:text:2xl">
                     Home
                 </a>
-                <a href="https://www.linkedin.com/company/uiu-robotics/" class="me-4 text-sm md:text-lg xl:text:2xl">
+                <a href="\AboutUs\index.php" class="me-4 text-sm md:text-lg xl:text:2xl">
                     About Us
                 </a>
                 <a href="\event\index.php" class="me-4 text-sm md:text-lg xl:text:2xl">
                     Events
                 </a>
-                <a href="\Achievements\achievements.php" class="me-4 text-sm md:text-lg xl:text:2xl">
+                <a href="\Achievements\index.php" class="me-4 text-sm md:text-lg xl:text:2xl">
                     Acheivements
                 </a>
                 <a href="https://www.linkedin.com/company/uiu-robotics/" class="me-4 text-sm md:text-lg xl:text:2xl">
