@@ -11,7 +11,6 @@ include_once '../_settings/config.php';
 
 <body>
     <?php include ABSPATH . '_includes/header.php'; ?>
-    <?php include ABSPATH . '../_includes/header.php'; ?>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-6">
         <!-- Card 1 -->
         <div class="nut_box_4 max-w-sm mx-auto rounded-2xl shadow-md bg-white">
