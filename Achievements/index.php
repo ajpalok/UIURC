@@ -11,7 +11,7 @@ include_once '../_settings/config.php';
 
 <body>
     <?php include ABSPATH . '_includes/header.php'; ?>
-    <div class="flex items-center justify-start p-6 gap-4 text-primary">
+    <div class="flex items-center justify-start pr-15 pl-15 pt-15 gap-4 text-primary">
         <span class="font-display text-md sm:text-xl md:text-2xl lg:text-4xl font-semibold uppercase whitespace-nowrap">
             Our Achievements
         </span>
@@ -20,7 +20,7 @@ include_once '../_settings/config.php';
         </span>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 px-4 sm:px-6 md:px-10 lg:px-25 pt-10">
         <!-- Card 1: University Rover Challenge 2022 -->
         <div class="nut_box_4 max-w-sm mx-auto rounded-2xl shadow-md bg-white">
             <div class="w-full aspect-[4/3] overflow-hidden rounded-t-xl">
@@ -32,7 +32,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Mars Rover Team</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2022
+                        2022
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">University Rover Challenge</h3>
@@ -52,7 +52,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2021
+                        2021
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">EEE Day</h3>
@@ -72,7 +72,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2019
+                        2019
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">EEE Award</h3>
@@ -94,7 +94,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2019
+                        2019
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">Tech Quest</h3>
@@ -115,7 +115,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2019
+                        2019
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">Robolution</h3>
@@ -136,7 +136,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2019
+                        2019
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">Google CodeU</h3>
@@ -156,7 +156,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2019
+                        2019
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">International Robo Fest</h3>
@@ -178,7 +178,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2019
+                        2019
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">Student to Start-Up</h3>
@@ -200,7 +200,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2019
+                        2019
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">Entrepreneurship 360</h3>
@@ -222,7 +222,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2019
+                        2019
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">Hult Prize</h3>
@@ -244,7 +244,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2019
+                        2019
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">CoronaThon-19</h3>
@@ -266,7 +266,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2019
+                        2019
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">Robo Carnival</h3>
@@ -288,7 +288,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2018
+                        2018
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">Ureckon(India)</h3>
@@ -309,7 +309,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2018
+                        2018
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">Ureckon(India)</h3>
@@ -331,7 +331,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2018
+                        2018
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">DUIT FEST</h3>
@@ -352,7 +352,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2018
+                        2018
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">DUET Techfest</h3>
@@ -374,7 +374,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Mars Rover Team</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2017
+                        2017
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">University Rover Challenge</h3>
@@ -394,7 +394,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2017
+                        2017
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">BRACathon II</h3>
@@ -416,7 +416,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2017
+                        2017
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">National Women’s Hackathon</h3>
@@ -438,7 +438,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2017
+                        2017
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">National Women’s Hackathon</h3>
@@ -460,7 +460,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2017
+                        2017
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">MCCI Agragami</h3>
@@ -480,7 +480,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2017
+                        2017
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">MCCI Agragami</h3>
@@ -500,7 +500,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2017
+                        2017
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">Tech For Peace</h3>
@@ -522,7 +522,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2017
+                        2017
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">Techfest Bangladesh Round & NRF</h3>
@@ -544,7 +544,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2017
+                        2017
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">APICTA Award</h3>
@@ -564,7 +564,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2017
+                        2017
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">NRF</h3>
@@ -586,7 +586,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2017
+                        2017
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">NRF</h3>
@@ -608,7 +608,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2017
+                        2017
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">EEE Day</h3>
@@ -628,7 +628,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2016
+                        2016
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">TechQuest</h3>
@@ -650,7 +650,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2016
+                        2016
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">TechQuest</h3>
@@ -672,7 +672,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2016
+                        2016
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">UIU Soccer Bot Championship</h3>
@@ -694,7 +694,7 @@ include_once '../_settings/config.php';
                 <div class="flex items-center justify-between p-3">
                     <h1 class="text-xl font-bold text-gray-800">UIU Robotics Club</h1>
                     <span class="inline-block px-2 py-0.5 text-xs font-semibold text-white bg-[#ff3215] rounded-full">
-                        Year-2016
+                        2016
                     </span>
                 </div>
                 <h3 class="text-base font-semibold text-gray-700 mb-1 pl-4">UIU Soccer Bot Championship</h3>

@@ -14,7 +14,7 @@ include_once '_settings/config.php';
 
     <section class="w-[85%] max-w-[1440px] mx-auto mt-20 px-5 mb-16 flex flex-col-reverse sm:flex-row gap-8">
         <div class="w-full rounded sm:w-1/2 flex flex-col justify-center items-center">
-            <svg viewBox="0 0 610 206" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="w-[400px]" viewBox="0 0 610 206" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M48.6 156.3L47.8 159.6H41.8L39.5 169.1H45.5L44.6 172.4H38.5L34.6 188.1H31.2L35.1 172.4H28.8L24.9 188.1H21.5L25.4 172.4H19.1L20 169.1H26.3L28.6 159.6H22.1L22.9 156.3H29.4L33.3 140.6H36.7L32.8 156.3H39.1L43 140.6H46.4L42.5 156.3H48.4H48.6ZM38.4 159.6H32.1L29.7 169.1H36L38.3 159.6H38.4Z"
                     fill="#FF3215" />

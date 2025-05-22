@@ -2,10 +2,9 @@
 
 <header class="w-full h-[100px] bg-grey-100 relative flex justify-between">
     <div class="logo-slab w-full max-w-[305px] flex items-center justify-center">
-        <a href="index.php" class="logo-slab__link">
-            <img src="/assets/img/logo/Icon.png" alt="Logo" class="logo-slab__img" />
+        <a href="/index.php" class="logo-slab__link">
+            <img src="/assets/img/logo/Icon.png" alt="UIU Robotics Club Logo" class="logo-slab__img" />
         </a>
-
     </div>
     <div class="logo-slab_tail">
         <span class="hidden">
@@ -50,14 +49,14 @@
                 <a href="\index.php" class="me-4 text-sm md:text-lg xl:text:2xl">
                     Home
                 </a>
-                <a href="\AboutUs\index.php" class="me-4 text-sm md:text-lg xl:text:2xl">
-                    About Us
-                </a>
                 <a href="\event\index.php" class="me-4 text-sm md:text-lg xl:text:2xl">
                     Events
                 </a>
                 <a href="\Achievements\index.php" class="me-4 text-sm md:text-lg xl:text:2xl">
                     Acheivements
+                </a>
+                <a href="\AboutUs\index.php" class="me-4 text-sm md:text-lg xl:text:2xl">
+                    About Us
                 </a>
                 <a href="https://www.linkedin.com/company/uiu-robotics/" class="me-4 text-sm md:text-lg xl:text:2xl">
                     <svg width="8rem" viewBox="0 0 215 65" fill="none" xmlns="http://www.w3.org/2000/svg">
