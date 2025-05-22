@@ -1,14 +1,16 @@
 <?php
-    include_once '../_settings/config.php';
+include_once '../_settings/config.php';
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <?php include ABSPATH.'_includes/head.php'; ?>
+    <?php include ABSPATH . '_includes/head.php'; ?>
 </head>
+
 <body>
-    <?php include ABSPATH.'_includes/header.php'; ?>
+    <?php include ABSPATH . '_includes/header.php'; ?>
 
     <section class="w-[85%] max-w-[1440px] mx-auto mt-20 flex flex-col items-center sm:flex-row gap-8">
         <div class="w-full sm:w-1/2">
@@ -19,10 +21,12 @@
         <div class="w-full sm:w-1/2 flex flex-col">
             <div class="my-6">
                 <h1 class="text-2xl lg:text-4xl xl:text-[3.25rem] text-primary font-semibold">Event Name</h1>
-                <p class="text-sm">Event Details: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, excepturi.</p>
+                <p class="text-sm">Event Details: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi,
+                    excepturi.</p>
             </div>
             <div class="mt-2 flex flex-row items-center gap-1">
-                <svg fill="var(--color-primary)" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 48 48">
+                <svg fill="var(--color-primary)" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
+                    viewBox="0 0 48 48">
                     <use xlink:href="#location"></use>
                 </svg>
                 <p class="text-sm lg:text-lg xl:text-2xl">
@@ -30,7 +34,8 @@
                 </p>
             </div>
             <div class="mt-2 flex flex-row items-center gap-1">
-                <svg fill="var(--color-primary)" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 24 24">
+                <svg fill="var(--color-primary)" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
+                    viewBox="0 0 24 24">
                     <use xlink:href="#clock"></use>
                 </svg>
                 <p class="text-sm lg:text-lg xl:text-2xl">
@@ -39,12 +44,16 @@
             </div>
             <div class="mt-2 flex flex-row items-center gap-1 sm:mt-4 lg:mt-6 xl:mt-8">
                 <a href="/events_form">
-                    <svg class="w-30 lg:w-40 xl:w-50" viewBox="0 0 215 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="w-30 lg:w-40 xl:w-50" viewBox="0 0 215 65" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_40_80)">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0 16.9L18 0H6.5C2.9 0 0 2.9 0 6.5V16.9Z"
                                 fill="#FF3215" />
-                            <mask id="mask0_40_80" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="216" height="65">
-                                <path d="M215 32.3C215 29.6 213.4 27.3 210.9 26.3C210.4 26 210 25.7 209.7 25.4C205.4 22.4 201.2 19.3 196.9 16.3C195 15 194.4 13.4 194.3 12.4V6.59998C194.3 2.99998 191.4 0.0999756 187.8 0.0999756H19.8L0 18.5V58.5C0 62.1 2.9 65 6.5 65H208.6C212.2 65 215.1 62.1 215.1 58.5V32.3H215Z" fill="white" />
+                            <mask id="mask0_40_80" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="216" height="65">
+                                <path
+                                    d="M215 32.3C215 29.6 213.4 27.3 210.9 26.3C210.4 26 210 25.7 209.7 25.4C205.4 22.4 201.2 19.3 196.9 16.3C195 15 194.4 13.4 194.3 12.4V6.59998C194.3 2.99998 191.4 0.0999756 187.8 0.0999756H19.8L0 18.5V58.5C0 62.1 2.9 65 6.5 65H208.6C212.2 65 215.1 62.1 215.1 58.5V32.3H215Z"
+                                    fill="white" />
                             </mask>
                             <g mask="url(#mask0_40_80)">
                                 <path
@@ -128,29 +137,39 @@
 
         <div class="flex flex-row flex-wrap items-center justify-center mt-10">
             <div class="flex flex-col max-w-[200px] mt-4">
-                <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3" src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
+                <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3"
+                    src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
                 <p class="text-center text-3xl px-2 mb-2">Prof. Dr. MD. Abrar Jahin</p>
-                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.</p>
             </div>
             <div class="flex flex-col max-w-[200px] mt-4">
-                <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3" src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
+                <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3"
+                    src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
                 <p class="text-center text-3xl px-2 mb-2">Prof. Dr. MD. Abrar Jahin</p>
-                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.</p>
             </div>
             <div class="flex flex-col max-w-[200px] mt-4">
-                <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3" src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
+                <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3"
+                    src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
                 <p class="text-center text-3xl px-2 mb-2">Prof. Dr. MD. Abrar Jahin</p>
-                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.</p>
             </div>
             <div class="flex flex-col max-w-[200px] mt-4">
-                <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3" src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
+                <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3"
+                    src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
                 <p class="text-center text-3xl px-2 mb-2">Prof. Dr. MD. Abrar Jahin</p>
-                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.</p>
             </div>
             <div class="flex flex-col max-w-[200px] mt-4">
-                <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3" src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
+                <img class="mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl border border-3"
+                    src="https://gravatar.com/userimage/145763310/6ad858b0b9a703098fe1afe3154fa386.jpeg?size=124">
                 <p class="text-center text-3xl px-2 mb-2">Prof. Dr. MD. Abrar Jahin</p>
-                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-center text-md px-2">Designation & Details Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.</p>
             </div>
         </div>
     </section>
@@ -167,27 +186,34 @@
         </div>
 
         <div class="flex flex-row flex-wrap items-center justify-around gap-3 mt-10">
-            <div class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
+            <div
+                class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
                 <img src="/assets/img/companies/united.png">
             </div>
-            <div class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
+            <div
+                class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
                 <img src="/assets/img/companies/ici.png">
             </div>
-            <div class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
+            <div
+                class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
                 <img src="/assets/img/companies/PRAN.png">
             </div>
-            <div class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
+            <div
+                class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
                 <img src="/assets/img/companies/bd.jpg">
             </div>
-            <div class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
+            <div
+                class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
                 <img src="/assets/img/companies/shurokkha.png">
             </div>
-            <div class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
+            <div
+                class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
                 <img src="/assets/img/companies/startech.png">
             </div>
         </div>
     </section>
 
-    <?php include ABSPATH.'_includes/footer.php'; ?>
+    <?php include ABSPATH . '_includes/footer.php'; ?>
 </body>
+
 </html>
