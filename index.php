@@ -12,9 +12,10 @@ include_once '_settings/config.php';
 <body>
     <?php include ABSPATH . '_includes/header.php'; ?>
 
-    <section class="w-[85%] max-w-[1440px] mx-auto mt-20 px-5 mb-16 flex flex-col-reverse sm:flex-row gap-8">
-        <div class="w-full rounded sm:w-1/2 flex flex-col justify-center items-center">
-            <svg class="w-[400px]" viewBox="0 0 610 206" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <section class="w-[95%] max-w-[1600px] mx-auto mt-20 px-4 sm:px-5 mb-16 flex flex-col-reverse sm:flex-row gap-8">
+        <div class="w-full sm:w-1/2 flex-1 self-start flex-col justify-center items-center">
+            <svg class="w-full sm:w-[400px] md:w-[500px] lg:w-[550px] max-w-full" viewBox="0 0 610 206" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M48.6 156.3L47.8 159.6H41.8L39.5 169.1H45.5L44.6 172.4H38.5L34.6 188.1H31.2L35.1 172.4H28.8L24.9 188.1H21.5L25.4 172.4H19.1L20 169.1H26.3L28.6 159.6H22.1L22.9 156.3H29.4L33.3 140.6H36.7L32.8 156.3H39.1L43 140.6H46.4L42.5 156.3H48.4H48.6ZM38.4 159.6H32.1L29.7 169.1H36L38.3 159.6H38.4Z"
                     fill="#FF3215" />
@@ -100,17 +101,25 @@ include_once '_settings/config.php';
                     d="M609.6 0.499992C609.7 0.499992 609.8 0.599992 609.8 0.799992V18.4C609.8 18.6 609.8 18.7 609.6 18.7H569.2V24.6H609.6C609.7 24.6 609.8 24.7 609.8 24.9V66.7C609.8 66.9 609.8 67 609.6 67H555.5C555.3 67 555.3 67 555.3 66.7V49.1C555.3 48.9 555.3 48.8 555.5 48.8H595.9V42.8H555.5C555.3 42.8 555.3 42.8 555.3 42.5V0.699993C555.3 0.499993 555.3 0.399994 555.5 0.399994H609.6V0.499992Z"
                     fill="#FF3215" />
             </svg>
-
-            <div class="flex flex-row justify-center items-center mt-4 gap-3">
-                <p class="text-xl font-bold text-gray-800">Explore more</p>
-                <a href="#"
-                    class="flex justify-center items-center rounded-full bg-primary text-white font-bold text-[18px] w-[2rem] h-[2rem] cursor-pointer hover:bg-[#0E1E2D] transition duration-300 ease-in-out">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
-                        <path fill="currentColor"
-                            d="M8.293 2.293a1 1 0 0 1 1.414 0l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1-1.414-1.414L11 8.5H1.5a1 1 0 0 1 0-2H11L8.293 3.707a1 1 0 0 1 0-1.414" />
-                    </svg>
-                </a>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, cumque! Libero quo expedita iusto
+                deleniti in alias voluptate sit veniam omnis dolores modi ratione illo voluptatibus, debitis consequatur
+                sunt numquam.</p>
+            <div class="flex flex-1 self-start justify-left items-left mt-4 gap-3">
+                <span>
+                    <p class="text-xl font-bold text-gray-800">Explore more</p>
+                </span>
+                <span>
+                    <a href="#"
+                        class="flex justify-center items-center rounded-full bg-primary text-white font-bold text-[18px] w-[2rem] h-[2rem] cursor-pointer hover:bg-[#0E1E2D] transition duration-300 ease-in-out">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+                            <path fill="currentColor"
+                                d="M8.293 2.293a1 1 0 0 1 1.414 0l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1-1.414-1.414L11 8.5H1.5a1 1 0 0 1 0-2H11L8.293 3.707a1 1 0 0 1 0-1.414" />
+                        </svg>
+                    </a>
+                </span>
             </div>
+
         </div>
         <div class="w-full sm:w-1/2 rounded overflow-hidden">
             <svg viewBox="0 0 629 372" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -470,7 +479,8 @@ include_once '_settings/config.php';
             </div>
             <div
                 class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
-                <img src="/assets/img/companies/bd.jpg">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Government_Seal_of_Bangladesh.svg/2048px-Government_Seal_of_Bangladesh.svg.png">
             </div>
             <div
                 class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">

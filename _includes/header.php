@@ -1,7 +1,7 @@
 <?php include ABSPATH . '_includes/svg.php'; ?>
 
 <header class="w-full h-[100px] bg-grey-100 relative flex justify-between">
-    <div class="logo-slab w-full max-w-[305px] flex items-center justify-center">
+    <div class="logo-slab w-full max-w-[315px] flex items-center justify-center">
         <a href="/index.php" class="logo-slab__link">
             <img src="/assets/img/logo/Icon.png" alt="UIU Robotics Club Logo" class="logo-slab__img" />
         </a>
@@ -56,9 +56,6 @@
                     Acheivements
                 </a>
                 <a href="\AboutUs\index.php" class="me-4 text-sm md:text-lg xl:text:2xl">
-                    About Us
-                </a>
-                <a href="https://www.linkedin.com/company/uiu-robotics/" class="me-4 text-sm md:text-lg xl:text:2xl">
                     <svg width="8rem" viewBox="0 0 215 65" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M0 16.878L17.986 0H6.469C2.896 0 0 2.91 0 6.5V16.878Z" fill="#FF3215" />
@@ -75,7 +72,7 @@
                             d="M17.9055 48.9299V54.8966C17.9055 55.4767 19.3629 55.4902 19.3629 54.8966V48.9299C19.3629 48.2577 17.9055 48.2577 17.9055 48.9299Z"
                             stroke="black" />
 
-                        <text x="50" y="40" font-size="24" fill="black">Contact Us</text>
+                        <text x="50" y="40" font-size="24" fill="black">About Us</text>
                     </svg>
                 </a>
             </div>
@@ -87,25 +84,24 @@
     class="fixed top-0 right-0 bottom-0 left-0 w-full h-full bg-[#404040] text-white z-10 transform transition-transform duration-700 translate-x-full overflow-y-auto">
     <div class="flex flex-col justify-center h-full mt-[100px]">
         <nav class="h-full flex flex-col justify-center  items-center  xs:gap-[30px] gap-[50px]">
-            <a href="/" class="w-full text-center text-sm font-sans font-medium px-[50px] hover:text-primary text-gray">
+            <a href="\index.php"
+                class="w-full text-center text-sm font-sans font-medium px-[50px] hover:text-primary text-gray">
                 Home
                 <hr class="w-full h-[2px] mt-[26px] hover:text-primary">
             </a>
-            <a href="#" class="w-full text-center text-sm font-sans font-medium px-[50px] hover:text-primary text-gray">
-                About us
-                <hr class="w-full h-[2px] mt-[26px] hover:text-primary">
-            </a>
-            <a href="#"
-                class="w-full text-center text-sm font-sans font-medium px-[50px] hover:text-primary text-primary">
+            <a href="\event\index.php"
+                class="w-full text-center text-sm font-sans font-medium px-[50px] hover:text-primary text-gray">
                 Events
                 <hr class="w-full h-[2px] mt-[26px] hover:text-primary">
             </a>
-            <a href="#" class="w-full text-center text-sm font-sans font-medium px-[50px] hover:text-primary text-gray">
+            <a href="\Achievements\index.php"
+                class="w-full text-center text-sm font-sans font-medium px-[50px] hover:text-primary text-gray">
                 Achievements
                 <hr class="w-full h-[2px] mt-[26px] hover:text-primary">
             </a>
-            <a href="#" class="w-full text-center text-sm font-sans font-medium px-[50px] hover:text-primary text-gray">
-                Contact us
+            <a href="\AboutUs\index.php"
+                class="w-full text-center text-sm font-sans font-medium px-[50px] hover:text-primary text-gray">
+                About us
                 <hr class="w-full h-[2px] mt-[26px] hover:text-primary">
             </a>
         </nav>

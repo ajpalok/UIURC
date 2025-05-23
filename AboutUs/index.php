@@ -29,7 +29,7 @@ include_once '../_settings/config.php';
                 engineering technologies, develop critical skills, and promote the field of robotics through active
                 participation in research, training, and competitions. Our mission is to create connections among
                 students, faculty, and corporate individuals while representing UIU on national and global
-                stages.[](https://www.uiu.ac.bd/campus-life/clubs-forums/)[](https://robotics.uiu.ac.bd/achievement)[](https://bd.linkedin.com/company/uiu-robotics)
+                stages.
             </p>
         </section>
 
@@ -45,7 +45,7 @@ include_once '../_settings/config.php';
                         information technology, creating skilled professionals ready to tackle technological challenges.
                         Our goal is to cultivate favorable relationships with communities and industries while providing
                         mentorship and organizational support to UIU
-                        students.[](https://www.uiu.ac.bd/campus-life/clubs-forums/)[](https://bd.linkedin.com/company/uiu-robotics)
+                        students.
                     </p>
                 </div>
                 <div>
@@ -54,7 +54,7 @@ include_once '../_settings/config.php';
                         To become a leading hub for robotics and technological innovation in Bangladesh, inspiring
                         students to develop leadership qualities, technical expertise, and teamwork skills. We strive to
                         represent UIU as a center of excellence in robotics on national and global platforms, pushing
-                        the boundaries of innovation and research.[](https://www.uiu.ac.bd/campus-life/clubs-forums/)
+                        the boundaries of innovation and research.
                     </p>
                 </div>
             </div>
@@ -71,7 +71,7 @@ include_once '../_settings/config.php';
                 prestigious national and international competitions. Our commitment to excellence has led to the
                 establishment of Bangladesh’s first Brain-Computer Interface (BCI) Research Lab at UIU, inaugurated on
                 December 12 by Zunaid Ahmed Palak, MP, State Minister of ICT
-                Division.[](https://robotics.uiu.ac.bd/)[](https://www.uiu.ac.bd/campus-life/clubs-forums/)[](https://cse.uiu.ac.bd/faculty/hafiz-fahim/)
+                Division.
             </p>
         </section>
 
@@ -81,31 +81,31 @@ include_once '../_settings/config.php';
             <ul class="list-disc pl-6 text-gray-600 space-y-2">
                 <li><strong>University Rover Challenge (URC) 2022</strong>: UIU Mars Rover Team secured 1st place in
                     Asia and 13th worldwide among 36 finalists, scoring 90.92/100 in the System Acceptance Review
-                    (SAR).[](https://www.tbsnews.net/bangladesh/education/uiu-robotics-club-becomes-best-asia-434914)
+                    (SAR).
                 <li><strong>University Rover Challenge (URC) 2023</strong>: Achieved the highest score in Bangladesh
-                    with 93.06 in the SAR submission.[](https://robotics.uiu.ac.bd/)
+                    with 93.06 in the SAR submission.
                 <li><strong>University Rover Challenge (URC) 2017</strong>: Qualified as a finalist among the top 36
-                    teams globally based on SAR results.[](https://www.uiu.ac.bd/campus-life/clubs-forums/)
+                    teams globally based on SAR results.
                 <li><strong>Brackathon 2017</strong>: UIU Robotics Club emerged as champions by providing optimal
-                    solutions to social problems.[](https://www.uiu.ac.bd/campus-life/clubs-forums/)
+                    solutions to social problems.
                 <li><strong>Techfest 2017</strong>: Won the championship in the Bangladesh Zonal Round of Asia’s largest
                     science and technology festival in the battle bot
-                    segment.[](https://www.uiu.ac.bd/campus-life/clubs-forums/)
+                    segment.
                 <li><strong>Techkriti 2018</strong>: Secured 1st position in the Bangladesh Zonal Round in the Robo War
-                    category at IIT Kanpur, India.[](https://www.uiu.ac.bd/campus-life/clubs-forums/)
+                    category at IIT Kanpur, India.
                 <li><strong>CoronaThon-19, 2020</strong>: A UIU Robotics team became runners-up by solving a problem in
-                    a hackathon addressing coronavirus challenges.[](https://www.uiu.ac.bd/campus-life/clubs-forums/)
+                    a hackathon addressing coronavirus challenges.
                 <li><strong>ANTT Robotics</strong>: Secured 3rd position among Bangladesh’s top 05 startups out of 3,147
-                    and completed a six-month incubation program in Seoul, South Korea.[](https://robotics.uiu.ac.bd/)
+                    and completed a six-month incubation program in Seoul, South Korea.
                 <li><strong>Innobotics 2020</strong>: Successfully organized a national robotics competition, engaging
-                    talented participants across Bangladesh.[](https://robotics.uiu.ac.bd/)
+                    talented participants across Bangladesh.
                 <li><strong>UIU CSE Project Show</strong>: Organized multiple events, including December 2019 and Fall
                     2023, showcasing innovative student projects with over 1,500
-                    participants.[](https://robotics.uiu.ac.bd/)[](https://bd.linkedin.com/company/uiu-robotics)
+                    participants.
                 <li><strong>BCI Research Lab</strong>: Launched Bangladesh’s first Brain-Computer Interface Research Lab
-                    at UIU in December.[](https://robotics.uiu.ac.bd/)
+                    at UIU in December.
                 <li><strong>M. Abdullah Khan</strong>: 2nd Runner-Up in a segment of EEE Day at Green University of
-                    Bangladesh (GUB).[](https://robotics.uiu.ac.bd/)
+                    Bangladesh (GUB).
             </ul>
         </section>
 
@@ -119,25 +119,25 @@ include_once '../_settings/config.php';
             <ul class="list-disc pl-6 text-gray-600 space-y-2">
                 <li><strong>Research and Development</strong>: Conducting research on advanced projects like Mars Rovers
                     and Brain-Computer Interfaces, with a focus on embedded systems and
-                    robotics.[](https://robotics.uiu.ac.bd/)[](https://www.uiu.ac.bd/campus-life/clubs-forums/)
+                    robotics.
                 <li><strong>Competitions</strong>: Participating in national and international robotics competitions,
                     such as the University Rover Challenge, Techfest, and
-                    Techkriti.[](https://www.uiu.ac.bd/campus-life/clubs-forums/)[](https://www.tbsnews.net/bangladesh/education/uiu-robotics-club-becomes-best-asia-434914)
+                    Techkriti.
                 <li><strong>Events and Workshops</strong>: Organizing events like Innobotics (2019, 2020) and the UIU
                     CSE Project Show to promote robotics and innovation among
-                    students.[](https://robotics.uiu.ac.bd/)[](https://www.youthop.com/bd/miscellaneous/uiu-robotics-club-presents-innobotics-2019-in-dhaka)
+                    students.
                 <li><strong>Collaborations</strong>: Partnering with organizations like the DRMC Science Club for events
                     such as the 15th DRMC National Science & Codeavour 1.0 International Carnival-2024, offering
                     exclusive benefits to
-                    members.[](https://robotics.uiu.ac.bd/)[](https://bd.linkedin.com/company/uiu-robotics)
+                    members.
                 <li><strong>Mentorship</strong>: Providing guidance for student projects and recommendations for
-                    employment opportunities within and outside UIU.[](https://robotics.uiu.ac.bd/)
+                    employment opportunities within and outside UIU.
                 <li><strong>Webinars and Outreach</strong>: Hosting programs like "Old School Robotics," where alumni
                     share their experiences, and organizing seminars to promote robotics and
-                    IT.[](https://robotics.uiu.ac.bd/)
+                    IT.
                 <li><strong>Community Engagement</strong>: Building relationships with proximate communities and
                     industries to foster innovation and
-                    collaboration.[](https://www.uiu.ac.bd/campus-life/clubs-forums/)
+                    collaboration.
             </ul>
         </section>
 
@@ -150,7 +150,7 @@ include_once '../_settings/config.php';
                 like the UIU CSE Project Show and moderating the club for over a year. The UIU Mars Rover Team is
                 supervised by Akib Zaman, a lecturer from the CSE Department, with student leadership from individuals
                 like Rokib
-                Hasan.[](https://www.tbsnews.net/bangladesh/education/uiu-robotics-club-becomes-best-asia-434914)[](https://cse.uiu.ac.bd/faculty/hafiz-fahim/)
+                Hasan.
             </p>
         </section>
 
