@@ -76,51 +76,43 @@ include_once '../_settings/config.php';
     ];
 
     const staticOurEvents = [{
-            heading: "Tech Talk",
-            time: "10:00 AM",
-            location: "Room 101",
-            details: "A deep dive into artificial intelligence, featuring discussions on neural networks, deep learning algorithms, and their applications in real-world scenarios like autonomous vehicles.",
-            image: placeholderImage,
+            heading: "Majlish-e-Ifter",
+            time: "March 17, 2025",
+            location: "UIU Cafeteria",
+            details: "The UIU Robotics Club cordially invites you to Majlish-e-Iftar, a special evening of togetherness, reflection, and celebration of the holy month of Ramadan! 🕌✨",
+            image: "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/490027735_697422702951439_4002414821349991261_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_eui2=AeFqXUPVyN0AqEtR3CBy1sbF2Ne4Cmso4frY17gKayjh-n6_c_hwPgoaW01JbkhLp1XUuw6eVAU5f9Vx5FPI75RU&_nc_ohc=acWyJljVp0MQ7kNvwF0j57L&_nc_oc=Adme6ovXR1TBFUimlKaxSHIuWyFQVIkwvtbzT6lvedhrVqRKbHfR8wEHlLrklWcS9i0&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=31XN1OvO91nZvlHhGr47KQ&oh=00_AfJhQ1djo6hpR3VxPCbiyQy5znLbYrfpP_29cmPjlunkuw&oe=68364C8A",
             link: "/event/"
         },
         {
-            heading: "Workshop",
-            time: "2:00 PM",
-            location: "Room 102",
-            details: "Learn advanced techniques in data science, including data visualization, statistical analysis, and machine learning model deployment, guided by experienced data scientists.",
-            image: placeholderImage,
+            heading: "UIU CSE Fest",
+            time: "June 17-18, 2025",
+            location: "United International University",
+            details: "Join us for the UIU CSE Fest, a two-day celebration of technology and innovation, featuring workshops, competitions, and networking opportunities with industry leaders and fellow tech enthusiasts.",
+            image: "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/471726729_122110719038647360_4982353136851016130_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_eui2=AeELKWaNMVNbeG5P6edUQHy5ItpShxwbCq4i2lKHHBsKrhIZJoUNJXITXqeSvz3bYSAMlbCnwMHsuaDnfs_3ga87&_nc_ohc=tPM8gVwgqS8Q7kNvwEIaVMj&_nc_oc=AdnNiFqtn69CHc_qDZKAHAhZn-tqYauSsWqWNHM_KWeqTRy_rHeUAiI4wdssa__5Bt0&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=724xWw4HD4MwC0ichkgZTw&oh=00_AfIsrwQ8u8I2i9GbAozA37nIG3cdoNA58jh8cNUxQ2MEhA&oe=68363D08",
             link: "/event/"
         },
         {
-            heading: "Seminar",
-            time: "4:00 PM",
-            location: "Auditorium A",
-            details: "Discover the future of blockchain technology, exploring its applications in finance, supply chain management, and decentralized systems, with case studies from leading industries.",
-            image: placeholderImage,
+            heading: "Rush Hour",
+            time: "December 4, 2024",
+            location: "UIU Gallery",
+            details: "Join us for Rush Hour, an exciting event filled with tech talks, workshops, and networking opportunities, designed to inspire and empower the next generation of innovators and leaders in technology.",
+            image: "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/484381367_677849471575429_2882193511448082183_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_eui2=AeGog9IgGSrIF7oXp1xI1K9_6Gb3YOBnNbHoZvdg4Gc1sRlqc_XI4awDzQvEeu0Fg2z7YcXjhDvzOUEr9UZ3pzBw&_nc_ohc=83EiaYVXHDEQ7kNvwE3ezyQ&_nc_oc=AdmyxAZsAkGz46kzXS4ogMRGH-TRk-5YkLoANglk5zUgJ_o5W2yM-PL0vug7PqCpQEY&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=gStIfFzgyPb_Ruyl9h00-g&oh=00_AfIGOPJBrE3p2kZEKq6xFN7HZpfbFB6lr1iqopI7ODuKfg&oe=68362F25",
             link: "/event/"
         },
         {
-            heading: "Panel Discussion",
-            time: "6:00 PM",
-            location: "Conference Hall",
-            details: "A dynamic panel of industry leaders discussing the impact of technology on society, covering topics like privacy, ethics, and the role of AI in shaping future job markets.",
-            image: placeholderImage,
+            heading: "Research 101",
+            time: "Oct 9th, 2024",
+            location: "Room 126",
+            details: "Join us for Research 101, a comprehensive workshop designed to introduce students to the fundamentals of research methodologies, data analysis techniques, and effective presentation skills, empowering them to excel in their academic pursuits.",
+            image: "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/484729646_677325414961168_8702768972533058128_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_eui2=AeHJKrRBMaIfReqk84C8pOPJguQ4XsOdQheC5Dhew51CF54U1bHqSoSu8RmZVsUFUcHS7KSz2Ao01gEzi_RF9v8i&_nc_ohc=KkK-dZsPvJEQ7kNvwEX3RC3&_nc_oc=AdlWZC4OS1wd1B3E0l-YujASqMk_fgmvCBZT4eXPm3lka85FBJIO5-SaB4TtmA-x0Gk&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=mTF9WK95qAjSFqKK4I97JA&oh=00_AfJR44Ts7-_v2cLhJjMcfWsQaAid4XJ9g8_nlXOI7mNEfg&oe=68363DAC",
             link: "/event/"
         },
         {
-            heading: "Networking Event",
-            time: "8:00 PM",
+            heading: "TechTrove",
+            time: "July 6-9, 2024",
             location: "Lobby Area",
-            details: "Connect with professionals, entrepreneurs, and innovators in a relaxed setting, with opportunities to exchange ideas, collaborate on projects, and build lasting professional relationships.",
-            image: placeholderImage,
-            link: "/event/"
-        },
-        {
-            heading: "Networking Event",
-            time: "8:00 PM",
-            location: "Lobby Area",
-            details: "An evening of networking with tech enthusiasts, featuring interactive sessions, startup pitches, and opportunities to connect with mentors and investors in the tech ecosystem.",
-            image: placeholderImage,
+            details: "In today's fast-paced world, robotics is revolutionizing industries and shaping our future. Whether it's healthcare, manufacturing, or everyday life, understanding robotics is essential for staying ahead. Robotics equips you with problem-solving skills, creativity, and technical expertise.",
+            image: "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/482236483_675991651761211_3789288042738428016_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_eui2=AeEU77w3PcRPTJgNuoJgcloGrunoFDchk72u6egUNyGTvSPxrzCbyNRfqPSZZOrjQNsjIspjqhP8oSBdPU_kSYiL&_nc_ohc=0Zdb6k1DJjQQ7kNvwGAFs6L&_nc_oc=AdnXq_aUoSl3vlwqUr4EAyb4O7zD4PS7AtgxDoullUmWplsF88Dfg1-Ho9Oj0Fw1mPI&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=LnYFo_S_u4ySAYBelu5hbQ&oh=00_AfKcrVdhxZK8wHOGDoPQu2BHnNDiS7EJUf1Za829vV8zOQ&oe=68361B46",
             link: "/event/"
         }
     ];
