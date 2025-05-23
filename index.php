@@ -7,13 +7,32 @@ include_once '_settings/config.php';
 
 <head>
     <?php include ABSPATH . '_includes/head.php'; ?>
+    <style>
+    .nav-arrow-right .ellipsis-content {
+        font-size: 1.5rem;
+        /* Adjust to match arrow size */
+        font-weight: bold;
+        color: currentColor;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        /* Match SVG size */
+        height: 24px;
+    }
+
+    .nav-arrow-right .arrow-content.hidden,
+    .nav-arrow-right .ellipsis-content.hidden {
+        display: none;
+    }
+    </style>
 </head>
 
 <body>
     <?php include ABSPATH . '_includes/header.php'; ?>
 
     <section class="w-[95%] max-w-[1600px] mx-auto mt-20 px-4 sm:px-5 mb-16 flex flex-col-reverse sm:flex-row gap-8">
-        <div class="w-full sm:w-1/2 flex-1 self-start flex-col justify-center items-center">
+        <div class="w-full sm:w-1/2 flex-1 pl-20 self-start flex-col justify-center items-center">
             <svg class="w-full sm:w-[400px] md:w-[500px] lg:w-[550px] max-w-full" viewBox="0 0 610 206" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -102,7 +121,9 @@ include_once '_settings/config.php';
                     fill="#FF3215" />
             </svg>
             <br>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, cumque! Libero quo expedita iusto
+            <p class="w-[80%] max-w-[80%]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, cumque!
+                Libero
+                quo expedita iusto
                 deleniti in alias voluptate sit veniam omnis dolores modi ratione illo voluptatibus, debitis consequatur
                 sunt numquam.</p>
             <div class="flex flex-1 self-start justify-left items-left mt-4 gap-3">
@@ -121,10 +142,9 @@ include_once '_settings/config.php';
             </div>
 
         </div>
-        <div class="w-full sm:w-1/2 rounded overflow-hidden">
-            <svg viewBox="0 0 629 372" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <use xlink:href="#special_placeholder" />
-            </svg>
+        <div class="w-full sm:w-1/2 rounded-xl overflow-hidden" style="aspect-ratio: 4/3; max-width: 700px;">
+            <img src="https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/486164674_681504481209928_4526373125618018447_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFzRzYazoaNc5oVPS8DyvLCxOGkVUd9dBvE4aRVR310Gxek7IUsXFqPX7gbc_djfAMECb7rfYMdZcvoW_VWH2OM&_nc_ohc=ILVWHMj3rVgQ7kNvwFtWTL3&_nc_oc=Adke_vafMtUbAdXZOjaTJFxw6eRvX9HTsw0zt7232Jx38iBxQ0sI5CLmsXt0Gw5yxNs&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=VyClRV533GdlIRPYEw9uFw&oh=00_AfJu85uldHcr46JzLozp7j0b9ffjCm7kl-MQibOKZGQj7A&oe=683644C7"
+                alt="Group Photo" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
 
     </section>
@@ -152,12 +172,16 @@ include_once '_settings/config.php';
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                     </svg>
                 </button>
+                <!-- Inside the carousel-container -->
                 <button id="right-arrow"
                     class="nav-arrow nav-arrow-right absolute right-0 top-1/2 transform -translate-y-1/2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                        class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                    </svg>
+                    <span class="arrow-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </span>
+                    <span class="ellipsis-content hidden">...</span>
                 </button>
 
                 <!-- Event Cards Container -->
@@ -171,38 +195,38 @@ include_once '_settings/config.php';
         const placeholderImage = "/assets/img/svg/banner.svg";
 
         const staticEvents = [{
-                heading: "Tech Talk",
-                time: "10:00 AM",
-                location: "Room 101",
-                image: placeholderImage,
+                heading: "Majlish-e-Ifter",
+                time: "March 17, 2025",
+                location: "UIU Cafeteria",
+                image: "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/490027735_697422702951439_4002414821349991261_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_eui2=AeFqXUPVyN0AqEtR3CBy1sbF2Ne4Cmso4frY17gKayjh-n6_c_hwPgoaW01JbkhLp1XUuw6eVAU5f9Vx5FPI75RU&_nc_ohc=acWyJljVp0MQ7kNvwF0j57L&_nc_oc=Adme6ovXR1TBFUimlKaxSHIuWyFQVIkwvtbzT6lvedhrVqRKbHfR8wEHlLrklWcS9i0&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=31XN1OvO91nZvlHhGr47KQ&oh=00_AfJhQ1djo6hpR3VxPCbiyQy5znLbYrfpP_29cmPjlunkuw&oe=68364C8A",
                 link: "/event/"
             },
             {
-                heading: "Workshop",
-                time: "2:00 PM",
-                location: "Room 102",
-                image: placeholderImage,
+                heading: "UIU CSE Fest",
+                time: "June 17-18, 2025",
+                location: "United International University",
+                image: "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/471726729_122110719038647360_4982353136851016130_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_eui2=AeELKWaNMVNbeG5P6edUQHy5ItpShxwbCq4i2lKHHBsKrhIZJoUNJXITXqeSvz3bYSAMlbCnwMHsuaDnfs_3ga87&_nc_ohc=tPM8gVwgqS8Q7kNvwEIaVMj&_nc_oc=AdnNiFqtn69CHc_qDZKAHAhZn-tqYauSsWqWNHM_KWeqTRy_rHeUAiI4wdssa__5Bt0&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=724xWw4HD4MwC0ichkgZTw&oh=00_AfIsrwQ8u8I2i9GbAozA37nIG3cdoNA58jh8cNUxQ2MEhA&oe=68363D08",
                 link: "/event/"
             },
             {
-                heading: "Seminar",
-                time: "4:00 PM",
-                location: "Auditorium A",
-                image: placeholderImage,
+                heading: "Rush Hour",
+                time: "December 4, 2024",
+                location: "UIU Gallery",
+                image: "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/484381367_677849471575429_2882193511448082183_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_eui2=AeGog9IgGSrIF7oXp1xI1K9_6Gb3YOBnNbHoZvdg4Gc1sRlqc_XI4awDzQvEeu0Fg2z7YcXjhDvzOUEr9UZ3pzBw&_nc_ohc=83EiaYVXHDEQ7kNvwE3ezyQ&_nc_oc=AdmyxAZsAkGz46kzXS4ogMRGH-TRk-5YkLoANglk5zUgJ_o5W2yM-PL0vug7PqCpQEY&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=gStIfFzgyPb_Ruyl9h00-g&oh=00_AfIGOPJBrE3p2kZEKq6xFN7HZpfbFB6lr1iqopI7ODuKfg&oe=68362F25",
                 link: "/event/"
             },
             {
-                heading: "Panel Discussion",
-                time: "6:00 PM",
-                location: "Conference Hall",
-                image: placeholderImage,
+                heading: "Research 101",
+                time: "Oct 9th, 2024",
+                location: "Room 126",
+                image: "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/484729646_677325414961168_8702768972533058128_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_eui2=AeHJKrRBMaIfReqk84C8pOPJguQ4XsOdQheC5Dhew51CF54U1bHqSoSu8RmZVsUFUcHS7KSz2Ao01gEzi_RF9v8i&_nc_ohc=KkK-dZsPvJEQ7kNvwEX3RC3&_nc_oc=AdlWZC4OS1wd1B3E0l-YujASqMk_fgmvCBZT4eXPm3lka85FBJIO5-SaB4TtmA-x0Gk&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=mTF9WK95qAjSFqKK4I97JA&oh=00_AfJR44Ts7-_v2cLhJjMcfWsQaAid4XJ9g8_nlXOI7mNEfg&oe=68363DAC",
                 link: "/event/"
             },
             {
-                heading: "Networking Event",
-                time: "8:00 PM",
+                heading: "TechTrove",
+                time: "July 6-9, 2024",
                 location: "Lobby Area",
-                image: placeholderImage,
+                image: "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/482236483_675991651761211_3789288042738428016_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_eui2=AeEU77w3PcRPTJgNuoJgcloGrunoFDchk72u6egUNyGTvSPxrzCbyNRfqPSZZOrjQNsjIspjqhP8oSBdPU_kSYiL&_nc_ohc=0Zdb6k1DJjQQ7kNvwGAFs6L&_nc_oc=AdnXq_aUoSl3vlwqUr4EAyb4O7zD4PS7AtgxDoullUmWplsF88Dfg1-Ho9Oj0Fw1mPI&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=LnYFo_S_u4ySAYBelu5hbQ&oh=00_AfKcrVdhxZK8wHOGDoPQu2BHnNDiS7EJUf1Za829vV8zOQ&oe=68361B46",
                 link: "/event/"
             }
         ];
@@ -230,7 +254,7 @@ include_once '_settings/config.php';
                     <img src="${event.image || placeholderImage}" alt="Event" class="w-full h-48 object-cover rounded-t-lg">
                     <div class="event-details m-4">
                         <h2 class="text-sm sm:text-base font-bold text-gray-900">${event.heading}</h2>
-                        <p class="text-xs sm:text-sm text-gray-900 mt-0.5"><strong>Time</strong><br>${event.time}</p>
+                        <p class="text-xs sm:text-sm text-gray-900 mt-0.5"><strong>Date</strong><br>${event.time}</p>
                         <p class="text-xs sm:text-sm text-gray-900 mt-0.5"><strong>Location</strong><br>${event.location}</p>
                         <button onclick="window.location.href='${event.link}'" class="event-details-button bg-red-500 text-white rounded-full p-2 sm:p-3 hover:bg-red-600">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 sm:w-6 h-5 sm:h-6">
@@ -391,6 +415,158 @@ include_once '_settings/config.php';
             // Initial scroll position for mobile infinite scroll
             if (isMobile && numCards > 1) {
                 scrollToIndex(1, true); // Start at first real card
+            } else {
+                updateArrows();
+            }
+        }
+
+        function initializeCarousel() {
+            const eventsContainer = document.getElementById('events-container');
+            const leftArrow = document.getElementById('left-arrow');
+            const rightArrow = document.getElementById('right-arrow');
+            const rightArrowContent = rightArrow.querySelector('.arrow-content');
+            const rightEllipsisContent = rightArrow.querySelector('.ellipsis-content');
+            const cardWidth = 304; // Width of each card including margin
+            const isMobile = window.innerWidth <= 640;
+            const numCards = staticEvents.length;
+            const maxIndex = isMobile && numCards > 1 ? numCards : numCards - 1;
+            let isScrolling = false;
+
+            function updateArrows() {
+                const scrollLeft = eventsContainer.scrollLeft;
+                const maxScroll = eventsContainer.scrollWidth - eventsContainer.clientWidth;
+
+                if (!isMobile || numCards <= 1) {
+                    // Finite scrolling for desktop or single card
+                    leftArrow.style.display = scrollLeft <= 5 ? 'none' : 'block';
+                    leftArrow.disabled = scrollLeft <= 5;
+
+                    if (scrollLeft >= maxScroll - 5) {
+                        // Show ellipsis at rightmost position
+                        rightArrowContent.classList.add('hidden');
+                        rightEllipsisContent.classList.remove('hidden');
+                        rightArrow.disabled = false; // Allow clicking ellipsis to scroll left
+                    } else {
+                        // Show right arrow when not at rightmost position
+                        rightArrowContent.classList.remove('hidden');
+                        rightEllipsisContent.classList.add('hidden');
+                        rightArrow.disabled = false;
+                    }
+                } else {
+                    // Infinite scrolling: arrows always visible in mobile
+                    leftArrow.style.display = 'block';
+                    leftArrow.disabled = false;
+                    rightArrowContent.classList.remove('hidden');
+                    rightEllipsisContent.classList.add('hidden');
+                    rightArrow.disabled = false;
+                }
+            }
+
+            function scrollToIndex(index, instant = false) {
+                if (isScrolling) return;
+                isScrolling = true;
+
+                if (isMobile && numCards > 1) {
+                    // Handle infinite scrolling
+                    if (index < 0) {
+                        index = numCards - 1;
+                        eventsContainer.scrollTo({
+                            left: index * cardWidth,
+                            behavior: 'auto'
+                        });
+                    } else if (index > numCards) {
+                        index = 1;
+                        eventsContainer.scrollTo({
+                            left: index * cardWidth,
+                            behavior: 'auto'
+                        });
+                    }
+                } else {
+                    // Clamp index for non-mobile
+                    index = Math.max(0, Math.min(index, maxIndex));
+                }
+
+                eventsContainer.scrollTo({
+                    left: index * cardWidth,
+                    behavior: instant ? 'auto' : 'smooth'
+                });
+
+                setTimeout(() => {
+                    isScrolling = false;
+                    updateArrows();
+                }, instant ? 0 : 600);
+            }
+
+            function handleInfiniteScroll() {
+                if (!isMobile || numCards <= 1) return;
+                const scrollLeft = eventsContainer.scrollLeft;
+                const maxScroll = eventsContainer.scrollWidth - eventsContainer.clientWidth;
+
+                if (scrollLeft <= 0) {
+                    scrollToIndex(numCards - 1, true);
+                } else if (scrollLeft >= maxScroll - 5) {
+                    scrollToIndex(1, true);
+                }
+            }
+
+            leftArrow.addEventListener('click', () => {
+                if (leftArrow.disabled || isScrolling) return;
+                const currentIndex = Math.round(eventsContainer.scrollLeft / cardWidth);
+                scrollToIndex(currentIndex - 1);
+            });
+
+            rightArrow.addEventListener('click', () => {
+                if (rightArrow.disabled || isScrolling) return;
+                const currentIndex = Math.round(eventsContainer.scrollLeft / cardWidth);
+                if (!isMobile && rightEllipsisContent.classList.contains('hidden')) {
+                    // Right arrow: scroll right
+                    scrollToIndex(currentIndex + 1);
+                } else if (!isMobile) {
+                    // Ellipsis: scroll left
+                    scrollToIndex(currentIndex - 1);
+                } else {
+                    // Mobile: always scroll right
+                    scrollToIndex(currentIndex + 1);
+                }
+            });
+
+            // Handle touch scrolling
+            let startX, isDragging = false;
+            eventsContainer.addEventListener('touchstart', (e) => {
+                if (isScrolling) return;
+                startX = e.touches[0].clientX;
+                isDragging = true;
+            });
+
+            eventsContainer.addEventListener('touchmove', (e) => {
+                if (!isDragging || isScrolling) return;
+                const currentX = e.touches[0].clientX;
+                const diffX = startX - currentX;
+                const currentIndex = Math.round(eventsContainer.scrollLeft / cardWidth);
+                if (Math.abs(diffX) > 50) {
+                    if (diffX > 0) {
+                        scrollToIndex(currentIndex + 1);
+                    } else if (diffX < 0) {
+                        scrollToIndex(currentIndex - 1);
+                    }
+                    isDragging = false;
+                }
+            });
+
+            eventsContainer.addEventListener('touchend', () => {
+                isDragging = false;
+                if (!isScrolling) handleInfiniteScroll();
+            });
+
+            eventsContainer.addEventListener('scroll', () => {
+                if (!isScrolling) {
+                    updateArrows();
+                    handleInfiniteScroll();
+                }
+            });
+
+            if (isMobile && numCards > 1) {
+                scrollToIndex(1, true);
             } else {
                 updateArrows();
             }
