@@ -374,6 +374,54 @@ include_once '_settings/config.php';
         window.addEventListener('load', initializeCarousel);
         </script>
     </section>
+
+    <!-- Registration for WRO -->
+
+    <section id="registration-card" class="w-full max-w-[1440px] mx-auto mt-10 mb-10 px-5">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
+                <div class="md:w-1/2 w-full">
+                    <img src="assets/img/WRO-2025.png" alt="WRO Banner" class="w-full h-full p-10 object-cover">
+                </div>
+                <div class="md:w-1/2 w-full p-6 flex flex-col justify-center">
+                    <h2 class="text-2xl font-bold mb-2 text-primary">World Robotics Olympiad Registration</h2>
+                    <p class="mb-4 text-gray-700">Register now for the World Robot Olympiad! Join us for an exciting event filled with innovation and competition. Registration closes tonight at 11:59PM (Dhaka Time, UTC+6).</p>
+                    <div class="mb-4">
+                        <span class="font-semibold text-lg">Time left: </span>
+                        <span id="wro-timer" class="text-red-600 font-mono text-lg"></span>
+                    </div>
+                    <a id="register-btn" href="https://register.wrobd.org/" class="inline-block w-auto self-start px-6 py-2 bg-primary text-white rounded hover:bg-red-700 transition">Register Now</a>
+                </div>
+            </div>
+        </section>
+
+        <script>
+        function updateWROTimer() {
+            // Get current UTC time and convert to UTC+6 (Dhaka)
+            const now = new Date();
+            // UTC+6 offset in milliseconds
+            const dhakaOffsetMs = 6 * 60 * 60 * 1000;
+            const utcNow = now.getTime() + (now.getTimezoneOffset() * 60000);
+            const dhakaNow = new Date(utcNow + dhakaOffsetMs);
+            // Deadline: today 11:59:59 PM Dhaka time
+            const deadline = new Date(dhakaNow.getFullYear(), dhakaNow.getMonth(), dhakaNow.getDate(), 23, 59, 59);
+            let diff = deadline - dhakaNow;
+            if (diff <= 0) {
+                document.getElementById('wro-timer').textContent = 'Registration closed';
+                const btn = document.getElementById('register-btn');
+                if (btn) btn.style.display = 'none';
+                return;
+            }
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            document.getElementById('wro-timer').textContent = `${hours.toString().padStart(2,'0')}:${minutes.toString().padStart(2,'0')}:${seconds.toString().padStart(2,'0')}`;
+        }
+        setInterval(updateWROTimer, 1000);
+        updateWROTimer();
+        </script>
+
+    
+
     <!-- Events -->
     <section class="w-full max-w-[1440px] mx-auto mt-20 px-5">
         <div class="text-nowrap flex items-center flex-row justify-center gap-[22px] text-primary">
@@ -870,6 +918,10 @@ include_once '_settings/config.php';
                 <!-- Original logos -->
                 <div
                     class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
+                    <img class="rounded-xl" src="/assets/img/companies/WROBd-Logo.png" alt="WROBD">
+                </div>
+                <div
+                    class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
                     <img class="rounded-xl" src="https://preneurlab.ca/assets/images/logo.png" alt="PreneurLab">
                 </div>
                 <div
@@ -905,6 +957,10 @@ include_once '_settings/config.php';
                         alt="ICT Olympiad Bangladesh">
                 </div>
                 <!-- Duplicated logos for seamless scroll -->
+                <div
+                    class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
+                    <img class="rounded-xl" src="/assets/img/companies/WROBd-Logo.png" alt="WROBD">
+                </div>
                 <div
                     class="flex items-center justify-around mx-auto my-2 w-[98px] sm:w-[112px] h-[98px] sm:h-[112px] rounded-xl max-w-[200px]">
                     <img class="rounded-xl" src="https://preneurlab.ca/assets/images/logo.png" alt="PreneurLab">
